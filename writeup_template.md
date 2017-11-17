@@ -27,11 +27,11 @@ The goals / steps of this project are the following:
 [image6]: ./real/3.png "6th image" 
 [image7]: ./real/4.png "7th image" 
 [image8]: ./real/5.png "8th image" 
-[image9]: ./real/gray/image(16).png  "9th image" 
-[image10]: ./real/gray/image(17).png "10th image" 
-[image11]: ./real/gray/image(18).png "11th image" 
-[image12]: ./real/gray/image(19).png "12th image" 
-[image13]: ./real/gray/image(20).png "13th image" 
+[image9]: ./real/gray/16.png  "9th image" 
+[image10]: ./real/gray/17.png "10th image" 
+[image11]: ./real/gray/18.png "11th image" 
+[image12]: ./real/gray/19.png "12th image" 
+[image13]: ./real/gray/20.png "13th image" 
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
