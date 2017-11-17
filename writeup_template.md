@@ -19,14 +19,19 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./examples/original.png "Original image"
+[image2]: ./examples/gray.png "Gray image"
+[image3]: ./examples/augmented.png "Augmented image"
+[image4]: ./real/1.png "4th image" 
+[image5]: ./real/2.png "5th image" 
+[image6]: ./real/3.png "6th image" 
+[image7]: ./real/4.png "7th image" 
+[image8]: ./real/5.png "8th image" 
+[image9]: ./real/gray/image(16).png  "9th image" 
+[image10]: ./real/gray/image(17).png "10th image" 
+[image11]: ./real/gray/image(18).png "11th image" 
+[image12]: ./real/gray/image(19).png "12th image" 
+[image13]: ./real/gray/image(20).png "13th image" 
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -56,7 +61,7 @@ Here are the summary of the dataset.
 
 I used matplot library to verify the image before further proceedings. 
 
-[image1]: ./examples/original.png "Original image"
+![alt text][image1]
 
 ### Design and Test a Model Architecture
 
@@ -66,7 +71,7 @@ As a first step, I decided to convert the images to grayscale because I used LeN
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-[image1]: ./examples/gray.png "Gray image"
+![alt text][image2]
 
 Then, I normalized the image data because it provides the data ranges from 0 to 1 so learning would be faster and the gradient would not fluctuate much. I used the technique same like Tensorflow, I copied the tensorflow base python code for this purpose. It calculates the mean and SD and then apply the normalization formula.
 
@@ -84,7 +89,7 @@ At last step, I applied image augmentation (I would explain in detail below,  ho
 
 Here is an example of an augmented image:
 
-[image1]: ./examples/augmented.png "Augmented image"
+![alt text][image3]
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -144,21 +149,21 @@ I choose 5 images from the web, converted the images into grayscale and normaliz
 
 Here are five German traffic signs that I found on the web:
 
-[image1]: ./real/1.png "1st image" 
-[image2]: ./real/2.png "2nd image" 
-[image3]: ./real/3.png "3rd image" 
-[image4]: ./real/4.png "4th image" 
-[image5]: ./real/5.png "5th image" 
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
+![alt text][image7]
+![alt text][image8]
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
-[image1]: ./real/gray/image(16).png "1st image" 
-[image2]: ./real/gray/image(17).png "2nd image" 
-[image3]: ./real/gray/image(18).png "3rd image" 
-[image4]: ./real/gray/image(19).png "4th image" 
-[image5]: ./real/gray/image(20).png "5th image" 
+![alt text][image9]
+![alt text][image10]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
