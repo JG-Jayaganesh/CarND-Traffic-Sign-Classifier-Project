@@ -173,6 +173,8 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image7]
 ![alt text][image8]
 
+I used semi-easy images to classify and even modified them slightly. I made them all uniform in size and only had one partially cut off.
+
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
@@ -182,6 +184,8 @@ Here are the results of the prediction:
 ![alt text][image11]
 ![alt text][image12]
 ![alt text][image13]
+
+It predicted 5 of the 5 traffic signs.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
