@@ -163,7 +163,7 @@ Image augmentation contributed a lot and improves accuarcy nearly by 10%.
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-I choose 5 images from the web, converted the images into grayscale and normalized before prediction.
+I choose 5 images from the web.
 
 Here are five German traffic signs that I found on the web:
 
@@ -173,7 +173,9 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image7]
 ![alt text][image8]
 
-I used semi-easy images to classify and even modified them slightly. I made them all uniform in size and only had one partially cut off.
+I used semi-easy images to classify and even modified them slightly (converted the images into grayscale and normalized before prediction). I made them all uniform in size.
+
+reference cell 15 & 16. 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
